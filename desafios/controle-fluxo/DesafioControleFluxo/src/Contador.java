@@ -14,7 +14,7 @@ public class Contador {
 
         } catch (InputMismatchException e) {
             System.out.println("Parametro invalido, digite um valor inteiro, Ex: 1");
-            
+
         } catch (ParametrosInvalidosException e) {
             System.out.println("O valor informado no primeiro parâmetro deve ser menor que o segundo!");
         }
